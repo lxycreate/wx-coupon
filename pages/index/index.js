@@ -112,6 +112,7 @@ Page({
   },
   // 跳转到搜索页
   jumpToSearch: function() {
+
     wx.navigateTo({
       url: "../../pages/search/search"
     })
