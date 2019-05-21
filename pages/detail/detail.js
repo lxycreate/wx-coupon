@@ -83,6 +83,7 @@ function getGoodsDetail(callback) {
       current_page.data.error_count = 0;
       if (res != null && res.data != null) {
         callback(res.data);
+        console.log(res.data);
       }
     },
     fail: function(res) {
